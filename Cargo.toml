@@ -1,0 +1,16 @@
+[package]
+name = "rand-indices"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+rand = "0.8.3"
+rand_pcg = "0.3.0"
+maplit = "1.0.2"
+
+[dev-dependencies]
+criterion = "0.3"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
